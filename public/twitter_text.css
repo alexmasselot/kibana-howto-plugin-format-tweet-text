@@ -1,0 +1,7 @@
+span.tweet-text span.hashtag{
+    color: red;
+}
+span.tweet-text span.at{
+    color: orange;
+    font-weight: bold;
+}
