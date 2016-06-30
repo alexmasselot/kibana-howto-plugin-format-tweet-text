@@ -1,6 +1,9 @@
 node_modules/
 .idea
 /kibana-howto-plugin-format-tweet-text.iml
+
+build/*
+
 # Logs
 logs
 *.log
