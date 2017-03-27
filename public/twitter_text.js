@@ -5,7 +5,7 @@ define(function (require) {
         const _ = require('lodash');
         require ('kibana-plugin-lodash-oo-mixin')(_);
 
-        const FieldFormat = Private(require('ui/index_patterns/_field_format/FieldFormat'));
+        const FieldFormat = Private(require('ui/index_patterns/_field_format/field_format'));
 
 
 

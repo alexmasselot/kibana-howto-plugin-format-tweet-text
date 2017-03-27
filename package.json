@@ -1,6 +1,6 @@
 {
   "name": "simple_twitter",
-  "version": "0.1.0",
+  "version": "5.2.2",
   "description": "A sample plugin to demonstrate field formatters",
   "main": "index.js",
   "scripts": {
@@ -11,20 +11,25 @@
     "build": "plugin-helpers build",
     "postinstall": "plugin-helpers postinstall"
   },
-  "devDependencies": {
-    "@elastic/eslint-config-kibana": "0.0.2",
-    "babel-eslint": "4.1.8",
-    "eslint": "1.10.3",
-    "eslint-plugin-mocha": "1.1.0",
-    "@elastic/plugin-helpers": "5.0.0-beta1"
+  "kibana": {
+    "version": "5.2.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/alexmasselot/kibana-howto-plugin-format-tweet-text.git"
   },
-  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@elastic/eslint-config-kibana": "0.4.0",
+    "eslint": "3.11.1",
+    "eslint-plugin-mocha": "4.7.0",
+    "eslint-plugin-babel": "4.0.0",
+    "babel-eslint": "6.1.2",
+    "@elastic/plugin-helpers": "5.2.0"
+  },
   "dependencies": {
     "kibana-plugin-lodash-oo-mixin": "^1.0.2",
-    "lodash": "^3.10.1"
-  }
+    "lodash": "^3.10.1",
+    "shelf-pack": "^1.0.0"
+  },
+  "license": "BSD-3-Clause"
 }
